@@ -110,6 +110,7 @@ student = [
 ];
 //ให้update คะแนนรวม แสดงรหัส ชื่อ และคะแนนรวม
 //แสดงผลเป็น ID: Name , Total : xx
+
 student.forEach(p=>{
     p[4]=p[2]+p[3];   
     console.log(`${p[0]} : ${p[1]}, Total : ${p[4]}`);
